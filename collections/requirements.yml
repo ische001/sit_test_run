@@ -1,5 +1,9 @@
+#collections:
+#  - name: isfh.common
+#    source: https://github.com/ische001/sit_test.git
+#    type: git
+#    version: master
 collections:
-  - name: isfh.common
-    source: https://github.com/ische001/sit_test.git
+  - name: https://github.com/ische001/sit_test.git
     type: git
     version: master
