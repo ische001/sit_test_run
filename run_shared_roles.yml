@@ -1,14 +1,14 @@
 ---
-hosts: all
-collections:
-  - isfh.common
+- hosts: all
+  collections:
+    - isfh.common
 
-tasks:
-  - name: Import role1
-    import_role:
-      name: role1
+  tasks:
+    - name: Import role1
+      import_role:
+        name: role1
 
-  - name: Import role2
-    import_role:
-      name: role2
+    - name: Import role2
+      import_role:
+        name: role2
 ...
