@@ -4,10 +4,10 @@
 #    type: git
 #    version: master
 collections:
-  - name: geerlingguy.php_roles
-    version: 0.9.3
-    source: https://galaxy.ansible.com
+#  - name: geerlingguy.php_roles
+#    version: 0.9.3
+#    source: https://galaxy.ansible.com
     
-#  - name: https://github.com/ische001/sit_test.git
-#    type: git
-#    version: master
+  - name: https://github.com/ische001/sit_test.git
+    type: git
+    version: master
