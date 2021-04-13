@@ -1,6 +1,8 @@
 ---
 - hosts: localhost
-  vars_file: mylocalvarsfile.yml
+  vars_files:
+    - mylocalvarsfile.yml
+
   tasks:
     - name: Include test var_from role
       include_role:
