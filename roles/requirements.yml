@@ -1,0 +1,5 @@
+  - name: test_vars_from
+    source: https://github.com/ische001/sit_test.git
+    type: git
+    version: master
+    
