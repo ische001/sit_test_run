@@ -1,5 +1,7 @@
-  - name: test_vars_from
-    source: https://github.com/ische001/sit_test.git
-    type: git
+roles:  
+
+  - src: https://github.com/ische001/sit_test.git
     version: master
-    
+    name: test_vars_from
+    scm: 'git'
+
