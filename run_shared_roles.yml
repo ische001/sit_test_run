@@ -1,14 +1,13 @@
 ---
-- hosts: all
-  collections:
-    - isfh.common
-
+- hosts: localhost
   tasks:
-    - name: Import role1
-      import_role:
-        name: role1
+    - name: Include test var_from role
+      include_role:
+        name: test_vars_from
+        vars_from: var_bar.yml
 
-    - name: Import role2
-      import_role:
-        name: role2
+    - name: Include test var_from role with other vars file
+      include_role:
+        name: test_vars_from
+        vars_from: var_foo.yml
 ...
