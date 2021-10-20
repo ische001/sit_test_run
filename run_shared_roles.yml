@@ -3,6 +3,9 @@
   #vars_files:
   #  - mylocalvarsfile.yml
 
+  collections:
+    - awx.awx
+    
   tasks:
   
     - name: Export all assets
