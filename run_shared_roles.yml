@@ -8,11 +8,17 @@
     
   tasks:
   
-    - name: Export all assets
-      export:
-        all: True
-      register: export_output
-  
+    #- name: Export all assets
+    #  export:
+    #    all: True
+    # register: export_output
+    
+    - name: Access and output credentials
+      debug:
+        msg:
+          - "cebtrifyuser={{ centrifyuser }}"
+          - "centrifypassword={{ centrifypassword }}"
+          
     #- name: Include test var_from role
     #  include_role:
     #    name: test_vars_from
