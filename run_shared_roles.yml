@@ -16,7 +16,7 @@
     - name: Access and output credentials
       debug:
         msg:
-          - "cebtrifyuser={{ centrifyuser }}"
+          - "centrifyuser={{ centrifyuser }}"
           - "centrifypassword={{ centrifypassword }}"
           
     #- name: Include test var_from role
